@@ -32,6 +32,7 @@ const code = `
                     data = JSON.stringify(jsonData);
                 } catch (error) {
                     console.error('Error processing request:', error);
+                    return originalSend.call(this, data);
                 }
             }
             return originalSend.call(this, data);
