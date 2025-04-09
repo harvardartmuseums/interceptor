@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Dojo Text Modifier",
+    "name": "TMS Text Interceptor",
     "version": "1.0",
     "permissions": [
       "*://tms.artmuseums.harvard.edu/*"
